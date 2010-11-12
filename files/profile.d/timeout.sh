@@ -1,2 +1,1 @@
-TMOUT=3600
-export TMOUT
+export TMOUT=3600
