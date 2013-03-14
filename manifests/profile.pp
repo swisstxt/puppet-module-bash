@@ -8,8 +8,8 @@ define bash::profile(
     path => $destination,
     owner => $uid, group => $gid, mode => 600,
     source => [
-      "puppet://$server/modules/site-bash/$fqdn/$source",
-      "puppet://$server/modules/site-bash/$source",
+      "puppet://$server/modules/site_bash/$fqdn/$source",
+      "puppet://$server/modules/site_bash/$source",
       "puppet://$server/modules/bash/$source",
       "puppet://$server/modules/bash/$source",
     ],
